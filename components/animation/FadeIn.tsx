@@ -16,6 +16,7 @@ export const FadeIn = ({
   children,
 }: FadeInProps): ReactElement => {
   const { ref, inView, entry } = useInView({
+    threshold: 0.1,
     triggerOnce: true,
   });
 
@@ -28,7 +29,7 @@ export const FadeIn = ({
         `;
 
         return (
-          <div ref={ref} className={inView ? markup : undefined}>
+          <div ref={ref} className={inView ? markup : 'display: none;'}>
             {children}
           </div>
         );
