@@ -80,20 +80,20 @@ const Home: NextPage = () => {
           <ol>
             <FadeIn orientation='up' delay={getSection2Delay()}>
               <li>
-                Wahlalter 16: Sofortige Senkung des aktiven Wahlalters von 18
-                auf 16 Jahre bei den Wahlen zum Abgeordnetenhaus und für
+                <b>Wahlalter 16:</b> Sofortige Senkung des aktiven Wahlalters
+                von 18 auf 16 Jahre bei den Wahlen zum Abgeordnetenhaus und für
                 Volksentscheide
               </li>
             </FadeIn>
             <FadeIn orientation='up' delay={getSection2Delay()}>
               <li>
-                Wahlrecht für alle: Bundesratsinitiative für ein Wahlrecht für
-                Menschen ohne deutsche Staatsbürgerschaft
+                <b>Wahlrecht für alle:</b> Bundesratsinitiative für ein
+                Wahlrecht für Menschen ohne deutsche Staatsbürgerschaft
               </li>
             </FadeIn>
             <FadeIn orientation='up' delay={getSection2Delay()}>
               <li>
-                Digitale Demokratie: Einführung der elektronischen
+                <b>Digitale Demokratie:</b> Einführung der elektronischen
                 Eintragungsmöglichkeit für Volksbegehren als Ergänzung zur
                 Straßensammlung
               </li>
