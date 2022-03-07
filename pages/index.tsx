@@ -112,11 +112,11 @@ const Home: NextPage = () => {
         </section>
 
         <section>
-          <FadeIn delay={0.25}>
+          <FadeIn>
             <h2>Jetzt unterschreiben</h2>
           </FadeIn>
 
-          <FadeIn delay={0.25}>
+          <FadeIn>
             <p>
               Unterschriften für Volksinitiativen müssen handschriftlich auf
               Papier erfolgen. Lass uns Deine E-Mail-Adresse da. Wir schicken
@@ -124,13 +124,13 @@ const Home: NextPage = () => {
             </p>
           </FadeIn>
 
-          <FadeIn delay={0.25}>
+          <FadeIn>
             <div className={s.buttonRow}>
               <button>Liste bei der Expedition Herunterladen</button>
             </div>
           </FadeIn>
 
-          <FadeIn delay={0.25}>
+          <FadeIn>
             <p>
               Kein Drucker? Bei unserem Bündnispartner innn.it kannst Du die
               Liste mit portofreiem Rückumschlag downloaden oder per Post direkt
@@ -140,13 +140,13 @@ const Home: NextPage = () => {
             </p>
           </FadeIn>
 
-          <FadeIn delay={0.25}>
+          <FadeIn>
             <div className={s.buttonRow}>
               <button>Liste bei innn.it Herunterladen</button>
             </div>
           </FadeIn>
 
-          <FadeIn delay={0.25}>
+          <FadeIn>
             <p>
               Du willst Deine E-Mail-Adresse nicht angeben? Du kannst die Liste
               hier auch anonym herunterladen. Allerdings können wir Dich dann
@@ -155,7 +155,7 @@ const Home: NextPage = () => {
             </p>
           </FadeIn>
 
-          <FadeIn delay={0.25}>
+          <FadeIn>
             <div className={s.buttonRow}>
               <button>Liste anonym Herunterladen</button>
             </div>
@@ -163,18 +163,18 @@ const Home: NextPage = () => {
         </section>
 
         <section>
-          <FadeIn delay={0.25}>
+          <FadeIn>
             <h2>Unterschreibe vor Ort</h2>
           </FadeIn>
 
-          <FadeIn delay={0.25}>
+          <FadeIn>
             <p>
               Schau auf der Karte, wo in nächster Zeit Sammelaktionen
               stattfinden, und wo Listen ausliegen.
             </p>
           </FadeIn>
 
-          <FadeIn orientation='up' delay={0.25}>
+          <FadeIn orientation='up'>
             <iframe
               width='100%'
               height='600px'
@@ -184,11 +184,11 @@ const Home: NextPage = () => {
         </section>
 
         <section>
-          <FadeIn delay={0.25}>
+          <FadeIn>
             <h2>Plane eine Sammelaktion!</h2>
           </FadeIn>
 
-          <FadeIn delay={0.25}>
+          <FadeIn>
             <p>
               Du hast Lust, Dich vor Ort beim Sammeln zu beteiligen? Hier kannst
               Du eine Sammelaktion veröffentlichen, um mehr Sammler*innen zu
@@ -196,7 +196,7 @@ const Home: NextPage = () => {
             </p>
           </FadeIn>
 
-          <FadeIn delay={0.25}>
+          <FadeIn>
             <div className={s.buttonRow}>
               <button>Zum Sammelplaner der Expedition</button>
             </div>
@@ -204,21 +204,21 @@ const Home: NextPage = () => {
         </section>
 
         <section>
-          <FadeIn delay={0.25}>
+          <FadeIn>
             <h2>Vernetz Dich mit Deinem Kiezteam</h2>
           </FadeIn>
 
-          <FadeIn delay={0.25}>
+          <FadeIn>
             <p>Hast Du noch Fragen? Dann schreibe an / rufe an unter …</p>
           </FadeIn>
         </section>
 
         <section>
-          <FadeIn delay={0.25}>
+          <FadeIn>
             <h2>Wer steht hinter „Demokratie für alle“?</h2>
           </FadeIn>
 
-          <FadeIn delay={0.25}>
+          <FadeIn>
             <p>
               Die neue Volksinitiative „Demokratie für alle“ wird von einem
               breiten Bündnis aus zivilgesellschaftlichen Initiativen und
@@ -234,7 +234,7 @@ const Home: NextPage = () => {
         <section>
           <div className={s.flexLogoContainer}>
             <div className={s.flexLogoItem}>
-              <FadeIn orientation='right' delay={0.25}>
+              <FadeIn orientation='right'>
                 <ResponsiveImage
                   path={getAssetURL('2b05532b-ff5a-4a42-a4aa-64cad97967eb')}
                   alt='Logo der Expedition Grundeinkommen'
@@ -243,7 +243,7 @@ const Home: NextPage = () => {
               </FadeIn>
             </div>
             <div className={s.flexLogoItem}>
-              <FadeIn orientation='right' delay={0.25}>
+              <FadeIn orientation='right'>
                 <ResponsiveImage
                   path={getAssetURL('6c028171-b13d-4315-9558-7e323b50c2be')}
                   alt='Logo Demokratie für alle'
@@ -257,11 +257,11 @@ const Home: NextPage = () => {
 
       <footer className={s.footer}>
         <section>
-          <FadeIn orientation='up' delay={0.25}>
+          <FadeIn orientation='up'>
             <h2>Presse:</h2>
           </FadeIn>
 
-          <FadeIn orientation='up' delay={0.25}>
+          <FadeIn orientation='up'>
             <p>
               <b>Presseanfragen</b> können Sie richten an:
               <br />
