@@ -23,13 +23,17 @@ export const FadeIn = ({
   return (
     <ClassNames>
       {({ css, cx }) => {
-        const markup = css`
+        const animation = css`
           opacity: 0;
           animation: ${fadeIn(orientation)} 0.2s ease-in-out ${delay}s forwards;
         `;
 
+        const before = css`
+          opacity: 0;
+        `;
+
         return (
-          <div ref={ref} className={inView ? markup : 'display: none;'}>
+          <div ref={ref} className={inView ? animation : before}>
             {children}
           </div>
         );
