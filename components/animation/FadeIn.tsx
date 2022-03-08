@@ -20,12 +20,20 @@ export const FadeIn = ({
     triggerOnce: true,
   });
 
+  const getControlledDelay = (): number => {
+    if (entry && entry.time < 1000) {
+      return delay;
+    }
+    return 0.15;
+  };
+
   return (
     <ClassNames>
       {({ css, cx }) => {
         const animation = css`
           opacity: 0;
-          animation: ${fadeIn(orientation)} 0.2s ease-in-out ${delay}s forwards;
+          animation: ${fadeIn(orientation)} 0.2s ease-in-out
+            ${getControlledDelay()}s forwards;
         `;
 
         const before = css`

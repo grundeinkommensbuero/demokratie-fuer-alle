@@ -126,7 +126,9 @@ const Home: NextPage = () => {
 
           <FadeIn>
             <div className={s.buttonRow}>
-              <button>Liste bei der Expedition Herunterladen</button>
+              <button className={s.button}>
+                Liste bei der Expedition Herunterladen
+              </button>
             </div>
           </FadeIn>
 
@@ -142,7 +144,9 @@ const Home: NextPage = () => {
 
           <FadeIn>
             <div className={s.buttonRow}>
-              <button>Liste bei innn.it Herunterladen</button>
+              <button className={s.button}>
+                Liste bei innn.it Herunterladen
+              </button>
             </div>
           </FadeIn>
 
@@ -157,7 +161,7 @@ const Home: NextPage = () => {
 
           <FadeIn>
             <div className={s.buttonRow}>
-              <button>Liste anonym Herunterladen</button>
+              <button className={s.button}>Liste anonym Herunterladen</button>
             </div>
           </FadeIn>
         </section>
@@ -198,7 +202,9 @@ const Home: NextPage = () => {
 
           <FadeIn>
             <div className={s.buttonRow}>
-              <button>Zum Sammelplaner der Expedition</button>
+              <button className={s.button}>
+                Zum Sammelplaner der Expedition
+              </button>
             </div>
           </FadeIn>
         </section>
