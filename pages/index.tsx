@@ -1,10 +1,10 @@
-import type { NextPage } from "next";
-import Head from "next/head";
-import { FadeIn } from "../components/animation/FadeIn";
-import s from "../styles/Home.module.scss";
-import { getIncrementor } from "../utils/getCounter";
-import { ResponsiveImage } from "../components/images/ResponsiveImage";
-import { getAssetURL } from "../utils/getAssetURL";
+import type { NextPage } from 'next';
+import Head from 'next/head';
+import { FadeIn } from '../components/animation/FadeIn';
+import s from '../styles/Home.module.scss';
+import { getIncrementor } from '../utils/getCounter';
+import { ResponsiveImage } from '../components/images/ResponsiveImage';
+import { getAssetURL } from '../utils/getAssetURL';
 
 const Home: NextPage = () => {
   const getTitleDelay = getIncrementor(0, 0.15);
@@ -14,7 +14,7 @@ const Home: NextPage = () => {
   return (
     <div className={s.container}>
       <Head>
-        <title>Demokratie für alle</title>
+        <title>Demokratie für Alle</title>
         <meta
           name="description"
           content='Links und Informationen zur Initiative "Demokratie für Alle"'
@@ -47,9 +47,9 @@ const Home: NextPage = () => {
               <div className={s.flexLogoItem}>
                 <FadeIn orientation="right" delay={getTitleDelay()}>
                   <ResponsiveImage
-                    path={getAssetURL("6c028171-b13d-4315-9558-7e323b50c2be")}
+                    path={getAssetURL('6c028171-b13d-4315-9558-7e323b50c2be')}
                     alt="Logo Demokratie für alle"
-                    link={"https://demokratie-fuer-alle.de"}
+                    link={'https://demokratie-fuer-alle.de'}
                   />
                 </FadeIn>
               </div>
@@ -102,10 +102,10 @@ const Home: NextPage = () => {
 
           <FadeIn delay={getSection2Delay()}>
             <p>
-              Den{" "}
+              Den{' '}
               <a href="http://innn.it/demokratiefueralle" target="_blanc">
                 vollständigen Forderungstext
-              </a>{" "}
+              </a>{' '}
               findest du auf innn.it.
             </p>
           </FadeIn>
@@ -134,8 +134,8 @@ const Home: NextPage = () => {
 
           <FadeIn delay={0.15}>
             <p>
-              Kein Drucker? Bei unserem Bündnispartner innn.it kannst Du die
-              Liste mit portofreiem Rückumschlag downloaden oder per Post direkt
+              Bei unserem Bündnispartner innn.it kannst Du die Liste mit
+              portofreiem Rückumschlag downloaden oder per Post direkt
               zugeschickt bekommen.
             </p>
           </FadeIn>
@@ -148,14 +148,14 @@ const Home: NextPage = () => {
             </div>
           </FadeIn>
 
-          <FadeIn delay={0.15}>
+          {/* <FadeIn delay={0.15}>
             <p>
               Oder Du schaust auf der Sammellandkarte weiter unten auf dieser
               Seite, wo Du vor Ort unterschreiben kannst.
             </p>
-          </FadeIn>
+          </FadeIn> */}
 
-          <FadeIn delay={0.15}>
+          {/* <FadeIn delay={0.15}>
             <p>
               Du willst Deine E-Mail-Adresse nicht angeben? Du kannst die Liste
               hier auch anonym herunterladen. Allerdings können wir Dich dann
@@ -168,7 +168,7 @@ const Home: NextPage = () => {
             <div className={s.buttonRow}>
               <button className={s.button}>Liste anonym herunterladen</button>
             </div>
-          </FadeIn>
+          </FadeIn> */}
         </section>
 
         <section>
@@ -226,33 +226,33 @@ const Home: NextPage = () => {
 
         <section>
           <FadeIn delay={0.15}>
-            <h2>Wer steht hinter „Demokratie für alle“?</h2>
+            <h2>Wer steht hinter „Demokratie für Alle“?</h2>
           </FadeIn>
 
           <FadeIn delay={0.15}>
             <p>
-              Die Volksinitiative „Demokratie für alle“ wird von einem breiten
+              Die Volksinitiative „Demokratie für Alle“ wird von einem breiten
               Bündnis aus zivilgesellschaftlichen Initiativen und Organisationen
-              getragen. Unterstützt wird die Volksinitiative unter anderem von{" "}
+              getragen. Unterstützt wird die Volksinitiative unter anderem von{' '}
               <a href="https://www.dwenteignen.de/">
                 Deutsche Wohnen & Co. enteignen
               </a>
-              ,{" "}
+              ,{' '}
               <a href="https://expedition-grundeinkommen.de/">
                 Expedition Grundeinkommen
               </a>
               , <a href="https://klimaneustart.berlin/">Klimaneustart Berlin</a>
-              ,{" "}
+              ,{' '}
               <a href="https://volksentscheid-berlin-autofrei.de/">
                 Berlin autofrei
               </a>
-              ,{" "}
-              <a href="https://bb.mehr-demokratie.de/">Mehr Demokratie e.V.</a>,{" "}
+              ,{' '}
+              <a href="https://bb.mehr-demokratie.de/">Mehr Demokratie e.V.</a>,{' '}
               <a href="https://www.change.org/p/bundesregierung-nicht-ohne-uns-14-prozent-bundestagswahlrecht-f%C3%BCr-alle-in-deutschland-lebenden-menschen">
                 Nicht Ohne uns 14 %
               </a>
               , <a href="https://changeverein.org/">Change.org e.V.</a>/
-              <a href="https://innn.it/">innn.it</a> und{" "}
+              <a href="https://innn.it/">innn.it</a> und{' '}
               <a href="https://www.openpetition.de/">openPetition</a>.
             </p>
           </FadeIn>
@@ -263,18 +263,18 @@ const Home: NextPage = () => {
             <div className={s.flexLogoItem}>
               <FadeIn delay={0.15} orientation="right">
                 <ResponsiveImage
-                  path={getAssetURL("2b05532b-ff5a-4a42-a4aa-64cad97967eb")}
+                  path={getAssetURL('2b05532b-ff5a-4a42-a4aa-64cad97967eb')}
                   alt="Logo der Expedition Grundeinkommen"
-                  link={"https://expedition-grundeinkommen.de"}
+                  link={'https://expedition-grundeinkommen.de'}
                 />
               </FadeIn>
             </div>
             <div className={s.flexLogoItem}>
               <FadeIn delay={0.15} orientation="right">
                 <ResponsiveImage
-                  path={getAssetURL("6c028171-b13d-4315-9558-7e323b50c2be")}
-                  alt="Logo Demokratie für alle"
-                  link={"https://demokratie-fuer-alle.de"}
+                  path={getAssetURL('6c028171-b13d-4315-9558-7e323b50c2be')}
+                  alt="Logo Demokratie für Alle"
+                  link={'https://demokratie-fuer-alle.de'}
                 />
               </FadeIn>
             </div>
@@ -292,15 +292,19 @@ const Home: NextPage = () => {
             <p>
               <b>Presseanfragen</b> können Sie richten an:
               <br />
-              <b>E-Mail:</b>{" "}
+              <b>E-Mail:</b>{' '}
               <a href="mailto:presse@demokratiefueralle.de ">
                 presse@demokratiefueralle.de
               </a>
               <br />
               <b>Pressetelefon:</b> +49 (30) 959997 22
               <br />
-              <b>Pressefotos</b> finden Sie{" "}
-              <a href="http://www.flickr.com/photos/changeorg/albums/72177720297226955 ">
+              <b>Pressefotos</b> finden Sie{' '}
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="http://www.flickr.com/photos/changeorg/albums/72177720297226955 "
+              >
                 hier
               </a>
               <br />
@@ -309,7 +313,11 @@ const Home: NextPage = () => {
 
           <FadeIn delay={0.15} orientation="up">
             <p>
-              <a href="https://expedition-grundeinkommen.de/impressum">
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://expedition-grundeinkommen.de/impressum"
+              >
                 <b>Impressum</b>
               </a>
             </p>
