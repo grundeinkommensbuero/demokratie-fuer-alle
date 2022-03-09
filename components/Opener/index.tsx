@@ -13,13 +13,13 @@ export const Opener = (): ReactElement => {
     <div className={s.openerContainer}>
       <div className={s.flexContainer}>
         <div className={s.flexLogo}>
-          <FadeIn delay={getDelay()}>
+          <FadeIn orientation="up" delay={getDelay()}>
             <TextAnimation />
           </FadeIn>
         </div>
 
         <div className={s.flexLogo}>
-          <FadeIn orientation="right" delay={getDelay()}>
+          <FadeIn orientation="up" delay={getDelay()}>
             <ResponsiveImage
               path={getAssetURL('6c028171-b13d-4315-9558-7e323b50c2be')}
               alt="Logo Demokratie für alle"

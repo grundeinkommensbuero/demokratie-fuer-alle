@@ -8,10 +8,9 @@ $pink: #ff46fa;
   font-weight: bold;
   width: 100%;
   display: block;
-  padding: 5rem;
 
   @media (max-width: 500px) {
-    font-size: 2rem;
+    font-size: 3rem;
   }
 }
 
@@ -20,7 +19,7 @@ $pink: #ff46fa;
   overflow: hidden;
 
   @media (max-width: 500px) {
-    height: 3rem;
+    height: 4.5rem;
   }
 }
 
@@ -30,7 +29,7 @@ $pink: #ff46fa;
   display: inline-block;
 
   @media (max-width: 500px) {
-    height: 2.5rem;
+    height: 3.75rem;
   }
 }
 
@@ -47,7 +46,7 @@ $pink: #ff46fa;
   padding: 0 1rem;
 
   @media (max-width: 500px) {
-    padding: 0 0.5rem;
+    padding: 0 0.75rem;
   }
 }
 #flip div:first-child div {
@@ -55,7 +54,7 @@ $pink: #ff46fa;
   padding: 0 1rem;
 
   @media (max-width: 500px) {
-    padding: 0 0.5rem;
+    padding: 0 0.75rem;
   }
 }
 #flip div:last-child div {
@@ -63,7 +62,7 @@ $pink: #ff46fa;
   padding: 0 1rem;
 
   @media (max-width: 500px) {
-    padding: 0 0.5rem;
+    padding: 0 0.75rem;
   }
 }
 
@@ -93,19 +92,19 @@ $pink: #ff46fa;
 
 @keyframes shows {
   0% {
-    margin-top: -1.5rem;
+    margin-top: -0rem;
   }
   5% {
-    margin-top: -6rem;
+    margin-top: -9rem;
   }
   33% {
-    margin-top: -6rem;
+    margin-top: -9rem;
   }
   38% {
-    margin-top: -3rem;
+    margin-top: -4.5rem;
   }
   66% {
-    margin-top: -3rem;
+    margin-top: -4.5rem;
   }
   71% {
     margin-top: 0rem;
@@ -114,7 +113,7 @@ $pink: #ff46fa;
     margin-top: 0rem;
   }
   100% {
-    margin-top: -1.5rem;
+    margin-top: -0rem;
   }
 }
 
@@ -143,9 +142,10 @@ $pink: #ff46fa;
   width: 100%;
   display: flex;
   justify-content: space-around;
+  padding-top: 4rem;
 
   @media (max-width: 1100px) {
     width: 100%;
-    padding-bottom: 5rem;
+    padding-bottom: 3rem;
   }
 }
