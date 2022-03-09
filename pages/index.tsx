@@ -259,7 +259,16 @@ const Home: NextPage = () => {
         </section>
 
         <section>
-          <div className={s.flexLogoContainer}>
+          <div className={s.flexLogoRowContainer}>
+            <div className={s.flexLogoItem}>
+              <FadeIn delay={0.15} orientation="right">
+                <ResponsiveImage
+                  path={getAssetURL('779435d0-7046-40b9-873e-23d0e9e03e49')}
+                  alt="Logo Deutsche Wohnen & Co Enteignen"
+                  link={'https://www.dwenteignen.de/'}
+                />
+              </FadeIn>
+            </div>
             <div className={s.flexLogoItem}>
               <FadeIn delay={0.15} orientation="right">
                 <ResponsiveImage
@@ -269,12 +278,33 @@ const Home: NextPage = () => {
                 />
               </FadeIn>
             </div>
+          </div>
+
+          <div className={s.flexLogoRowContainer}>
             <div className={s.flexLogoItem}>
               <FadeIn delay={0.15} orientation="right">
                 <ResponsiveImage
-                  path={getAssetURL('6c028171-b13d-4315-9558-7e323b50c2be')}
-                  alt="Logo Demokratie für Alle"
-                  link={'https://demokratie-fuer-alle.de'}
+                  path={getAssetURL('16a60946-19e5-47ee-8613-07c020019c09')}
+                  alt="Logo Berlin Autofrei"
+                  link={'https://volksentscheid-berlin-autofrei.de/'}
+                />
+              </FadeIn>
+            </div>
+            <div className={s.flexLogoItem}>
+              <FadeIn delay={0.15} orientation="right">
+                <ResponsiveImage
+                  path={getAssetURL('3cff3723-c11d-4532-acbe-1de246d21fe5')}
+                  alt="Logo Klimaneustart Berlin"
+                  link={'https://klimaneustart.berlin/'}
+                />
+              </FadeIn>
+            </div>
+            <div className={s.flexLogoItem}>
+              <FadeIn delay={0.15} orientation="right">
+                <ResponsiveImage
+                  path={getAssetURL('ebaac358-13b4-42ec-a15d-8e14dfec9b01')}
+                  alt="Logo Change.org e.V."
+                  link={'https://changeverein.org/'}
                 />
               </FadeIn>
             </div>

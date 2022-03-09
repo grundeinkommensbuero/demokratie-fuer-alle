@@ -40,6 +40,20 @@
   }
 }
 
+.flexLogoRowContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 4rem;
+
+  @media (max-width: 500px) {
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-bottom: 0rem;
+  }
+}
+
 .flexLogoItem {
   width: 40%;
   display: flex;
