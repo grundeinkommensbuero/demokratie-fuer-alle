@@ -233,10 +233,27 @@ const Home: NextPage = () => {
             <p>
               Die Volksinitiative „Demokratie für alle“ wird von einem breiten
               Bündnis aus zivilgesellschaftlichen Initiativen und Organisationen
-              getragen. Unterstützt wird die Volksinitiative unter anderem von
-              Deutsche Wohnen & Co. enteignen, Expedition Grundeinkommen,
-              Klimaneustart Berlin, Berlin autofrei, Mehr Demokratie e.V., Nicht
-              Ohne uns 14 %, Change.org e.V./innn.it und openPetition.
+              getragen. Unterstützt wird die Volksinitiative unter anderem von{" "}
+              <a href="https://www.dwenteignen.de/">
+                Deutsche Wohnen & Co. enteignen
+              </a>
+              ,{" "}
+              <a href="https://expedition-grundeinkommen.de/">
+                Expedition Grundeinkommen
+              </a>
+              , <a href="https://klimaneustart.berlin/">Klimaneustart Berlin</a>
+              ,{" "}
+              <a href="https://volksentscheid-berlin-autofrei.de/">
+                Berlin autofrei
+              </a>
+              ,{" "}
+              <a href="https://bb.mehr-demokratie.de/">Mehr Demokratie e.V.</a>,{" "}
+              <a href="https://www.change.org/p/bundesregierung-nicht-ohne-uns-14-prozent-bundestagswahlrecht-f%C3%BCr-alle-in-deutschland-lebenden-menschen">
+                Nicht Ohne uns 14 %
+              </a>
+              , <a href="https://changeverein.org/">Change.org e.V.</a>/
+              <a href="https://innn.it/">innn.it</a> und{" "}
+              <a href="https://www.openpetition.de/">openPetition</a>.
             </p>
           </FadeIn>
         </section>

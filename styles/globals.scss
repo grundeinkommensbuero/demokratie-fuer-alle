@@ -11,8 +11,12 @@ body {
 }
 
 a {
-  color: $blue;
-  text-decoration: underline;
+  color: $pink;
+  text-decoration: none;
+
+  &:hover {
+    color: $blue;
+  }
 }
 
 * {
@@ -66,9 +70,7 @@ button {
   border-radius: 2rem;
   padding: 1rem;
   cursor: pointer;
-  background: $pink;
   border: none;
-  color: white;
   font-weight: 600;
   background: $lightblue;
   color: $blue;
