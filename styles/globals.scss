@@ -63,18 +63,19 @@ li {
 
 button {
   font-size: 1.5rem;
-  border-radius: 25px;
-  padding: 0.5rem 1rem;
+  border-radius: 2rem;
+  padding: 1rem;
   cursor: pointer;
-  background: $blue;
+  background: $pink;
+  border: none;
   color: white;
   font-weight: 600;
-  border: 2px solid $lightblue;
+  background: $lightblue;
+  color: $blue;
 
   &:hover {
-    background: $lightblue;
-    color: $blue;
-    border: 2px solid blue;
+    background: $blue;
+    color: white;
   }
 }
 
