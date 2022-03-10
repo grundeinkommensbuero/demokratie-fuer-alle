@@ -85,7 +85,11 @@ const Home: NextPage = () => {
             <FadeIn delay={getSection2Delay()}>
               <p>
                 Den{' '}
-                <a href="http://innn.it/demokratiefueralle" target="_blanc">
+                <a
+                  href="http://innn.it/demokratiefueralle"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   vollständigen Forderungstext
                 </a>{' '}
                 findest du auf innn.it.
@@ -214,30 +218,74 @@ const Home: NextPage = () => {
                 Bündnis aus zivilgesellschaftlichen Initiativen und
                 Organisationen getragen. Unterstützt wird die Volksinitiative
                 unter anderem von{' '}
-                <a href="https://www.dwenteignen.de/">
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://www.dwenteignen.de/"
+                >
                   Deutsche Wohnen & Co. enteignen
                 </a>
                 ,{' '}
-                <a href="https://expedition-grundeinkommen.de/">
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://expedition-grundeinkommen.de/"
+                >
                   Expedition Grundeinkommen
                 </a>
                 ,{' '}
-                <a href="https://klimaneustart.berlin/">Klimaneustart Berlin</a>
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://klimaneustart.berlin/"
+                >
+                  Klimaneustart Berlin
+                </a>
                 ,{' '}
-                <a href="https://volksentscheid-berlin-autofrei.de/">
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://volksentscheid-berlin-autofrei.de/"
+                >
                   Berlin autofrei
                 </a>
                 ,{' '}
-                <a href="https://bb.mehr-demokratie.de/">
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://bb.mehr-demokratie.de/"
+                >
                   Mehr Demokratie e.V.
                 </a>
                 ,{' '}
-                <a href="https://www.change.org/p/bundesregierung-nicht-ohne-uns-14-prozent-bundestagswahlrecht-f%C3%BCr-alle-in-deutschland-lebenden-menschen">
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://www.change.org/p/bundesregierung-nicht-ohne-uns-14-prozent-bundestagswahlrecht-f%C3%BCr-alle-in-deutschland-lebenden-menschen"
+                >
                   Nicht Ohne uns 14 %
                 </a>
-                , <a href="https://changeverein.org/">Change.org e.V.</a>/
-                <a href="https://innn.it/">innn.it</a> und{' '}
-                <a href="https://www.openpetition.de/">openPetition</a>.
+                ,{' '}
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://changeverein.org/"
+                >
+                  Change.org e.V.
+                </a>
+                /
+                <a target="_blank" rel="noreferrer" href="https://innn.it/">
+                  innn.it
+                </a>{' '}
+                und{' '}
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://www.openpetition.de/"
+                >
+                  openPetition
+                </a>
+                .
               </p>
             </FadeIn>
           </section>
