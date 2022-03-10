@@ -404,6 +404,8 @@ const Home: NextPage = () => {
                   hier
                 </a>
                 <br />
+                <b>Pressemitteilungen:</b><br />
+                <a href="https://assets.ctfassets.net/af08tobnb0cl/54NdMLsTXlIxZBuS4Mqa6c/f4202c46023fbe540436b958f7c75399/220310_PM_Expedition_Grundeinkommen_Demokratie_f__r_Alle.pdf" target="_blank">Pressemitteilung: Kampagnenauftakt „Demokratie für alle!“ vom 10. März 2022</a>
               </p>
             </FadeIn>
 
