@@ -128,8 +128,8 @@ const Home: NextPage = () => {
             <FadeIn delay={0.15}>
               <p>
                 Bei unserem Bündnispartner innn.it kannst Du die Liste mit
-                portofreiem Rückumschlag downloaden oder per Post direkt kostenlos
-                zugeschickt bekommen.
+                portofreiem Rückumschlag downloaden oder per Post direkt
+                kostenlos zugeschickt bekommen.
               </p>
             </FadeIn>
 
@@ -207,28 +207,28 @@ const Home: NextPage = () => {
                 <p>Du willst mitsammeln? Hier findest du die Telegram-Kiezgruppen:</p>
                 <ul>
                   <li>
-                    <a href="https://bit.ly/3HYLa60" target="_blank">Sammelgruppe xBerg, Moabit, Mitte</a>
+                    <a href="https://bit.ly/3HYLa60" target="_blank" rel="noreferrer">Sammelgruppe xBerg, Moabit, Mitte</a>
                   </li>
                   <li>
-                    <a href="https://bit.ly/35KoRnr" target="_blank">Sammel-Gruppe Neukölln & Treptow-Köpenick</a>
+                    <a href="https://bit.ly/35KoRnr" target="_blank" rel="noreferrer">Sammel-Gruppe Neukölln & Treptow-Köpenick</a>
                   </li>
                   <li>
-                    <a href="https://bit.ly/3tKtRQP" target="_blank">Sammelgruppe Wedding, Reinickendorf</a>
+                    <a href="https://bit.ly/3tKtRQP" target="_blank" rel="noreferrer">Sammelgruppe Wedding, Reinickendorf</a>
                   </li>
                   <li>
-                    <a href="https://bit.ly/3MEgjPs" target="_blank">Sammelgruppe Pberg, Pankow</a>
+                    <a href="https://bit.ly/3MEgjPs" target="_blank" rel="noreferrer">Sammelgruppe Pberg, Pankow</a>
                   </li>
                   <li>
-                    <a href="https://bit.ly/3vVZpWA" target="_blank">Sammelgruppe Charlottenburg, Spandau</a>
+                    <a href="https://bit.ly/3vVZpWA" target="_blank" rel="noreferrer">Sammelgruppe Charlottenburg, Spandau</a>
                   </li>
                   <li>
-                    <a href="https://bit.ly/3J0ZI6v" target="_blank">Sammelgruppe THF, Schöneberg, Steglitz-Zehlendorf</a>
+                    <a href="https://bit.ly/3J0ZI6v" target="_blank" rel="noreferrer">Sammelgruppe THF, Schöneberg, Steglitz-Zehlendorf</a>
                   </li>
                   <li>
-                    <a href="https://bit.ly/3hZJ8YJ" target="_blank">Sammelgruppe Fhain, Lichtenberg, Ma-He</a>
+                    <a href="https://bit.ly/3hZJ8YJ" target="_blank" rel="noreferrer">Sammelgruppe Fhain, Lichtenberg, Ma-He</a>
                   </li>
                   <li>
-                    <a href="https://bit.ly/3pQIpgT" target="_blank">Berlinweite Gruppe</a>
+                    <a href="https://bit.ly/3pQIpgT" target="_blank" rel="noreferrer">Berlinweite Gruppe</a>
                   </li>
                 </ul>
               </div>
@@ -372,7 +372,16 @@ const Home: NextPage = () => {
 
             <FadeIn delay={0.15}>
               <p>
-              Möchtest Du Dich „Demokratie für alle“ mit Deiner Organisation anschließen? Dann <a href="https://expeditionbge.typeform.com/to/nZpdu7CO#user_email=xxxxx" target="_blank">folge einfach diesem Link</a>.
+                Möchtest Du Dich „Demokratie für alle“ mit Deiner Organisation
+                anschließen? Dann{' '}
+                <a
+                  href="https://expeditionbge.typeform.com/to/nZpdu7CO#user_email=xxxxx"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  folge einfach diesem Link
+                </a>
+                .
               </p>
             </FadeIn>
           </section>
@@ -404,8 +413,16 @@ const Home: NextPage = () => {
                   hier
                 </a>
                 <br />
-                <b>Pressemitteilungen:</b><br />
-                <a href="https://assets.ctfassets.net/af08tobnb0cl/54NdMLsTXlIxZBuS4Mqa6c/f4202c46023fbe540436b958f7c75399/220310_PM_Expedition_Grundeinkommen_Demokratie_f__r_Alle.pdf" target="_blank">Pressemitteilung: Kampagnenauftakt „Demokratie für alle!“ vom 10. März 2022</a>
+                <b>Pressemitteilungen:</b>
+                <br />
+                <a
+                  href="https://assets.ctfassets.net/af08tobnb0cl/54NdMLsTXlIxZBuS4Mqa6c/f4202c46023fbe540436b958f7c75399/220310_PM_Expedition_Grundeinkommen_Demokratie_f__r_Alle.pdf"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  Pressemitteilung: Kampagnenauftakt „Demokratie für alle!“ vom
+                  10. März 2022
+                </a>
               </p>
             </FadeIn>
 
