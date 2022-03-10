@@ -115,7 +115,7 @@ const Home: NextPage = () => {
                 <button
                   onClick={() =>
                     handleClick(
-                      'https://expedition-grundeinkommen.de/demokratie-fuer-alle/'
+                      'https://expedition-grundeinkommen.de/demokratie-fuer-alle/#download'
                     )
                   }
                   className={s.button}
@@ -186,7 +186,7 @@ const Home: NextPage = () => {
                 <button
                   onClick={() =>
                     handleClick(
-                      'https://expedition-grundeinkommen.de/demokratie-fuer-alle/'
+                      'https://expedition-grundeinkommen.de/demokratie-fuer-alle/#karte'
                     )
                   }
                   className={s.button}
@@ -203,7 +203,7 @@ const Home: NextPage = () => {
             </FadeIn>
 
             <FadeIn delay={0.15}>
-              <p>Hast Du noch Fragen? Dann schreibe an / rufe an unter …</p>
+              <p>Du willst mitsammeln? Hier findest du die Telegram-Kiezgruppen:</p>
             </FadeIn>
           </section>
 

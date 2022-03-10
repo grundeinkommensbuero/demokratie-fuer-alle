@@ -6,7 +6,7 @@ export const TextAnimation = (): ReactElement => {
     <div id={s.container}>
       Demokratie
       <br />
-      Für
+      für
       <div id={s.flip}>
         <div>
           <div>Mich</div>
