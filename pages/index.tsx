@@ -203,7 +203,35 @@ const Home: NextPage = () => {
             </FadeIn>
 
             <FadeIn delay={0.15}>
-              <p>Du willst mitsammeln? Hier findest du die Telegram-Kiezgruppen:</p>
+              <div>
+                <p>Du willst mitsammeln? Hier findest du die Telegram-Kiezgruppen:</p>
+                <ul>
+                  <li>
+                    <a href="https://bit.ly/3HYLa60" target="_blank">Sammelgruppe xBerg, Moabit, Mitte</a>
+                  </li>
+                  <li>
+                    <a href="https://bit.ly/35KoRnr" target="_blank">Sammel-Gruppe Neukölln & Treptow-Köpenick</a>
+                  </li>
+                  <li>
+                    <a href="https://bit.ly/3tKtRQP" target="_blank">Sammelgruppe Wedding, Reinickendorf</a>
+                  </li>
+                  <li>
+                    <a href="https://bit.ly/3MEgjPs" target="_blank">Sammelgruppe Pberg, Pankow</a>
+                  </li>
+                  <li>
+                    <a href="https://bit.ly/3vVZpWA" target="_blank">Sammelgruppe Charlottenburg, Spandau</a>
+                  </li>
+                  <li>
+                    <a href="https://bit.ly/3J0ZI6v" target="_blank">Sammelgruppe THF, Schöneberg, Steglitz-Zehlendorf</a>
+                  </li>
+                  <li>
+                    <a href="https://bit.ly/3hZJ8YJ" target="_blank">Sammelgruppe Fhain, Lichtenberg, Ma-He</a>
+                  </li>
+                  <li>
+                    <a href="https://bit.ly/3pQIpgT" target="_blank">Berlinweite Gruppe</a>
+                  </li>
+                </ul>
+              </div>
             </FadeIn>
           </section>
 
