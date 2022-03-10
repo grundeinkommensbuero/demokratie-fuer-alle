@@ -158,7 +158,7 @@ const Home: NextPage = () => {
             <FadeIn delay={0.15} orientation="up">
               <iframe
                 width="100%"
-                height="600px"
+                height="650px"
                 src="https://expedition-grundeinkommen.de/iframes/map"
               />
             </FadeIn>
@@ -245,7 +245,7 @@ const Home: NextPage = () => {
           <section>
             <div className={s.flexLogoRowContainer}>
               <div className={s.flexLogoItem}>
-                <FadeIn delay={0.15} orientation="right">
+                <FadeIn delay={0.15} orientation="up">
                   <ResponsiveImage
                     path={getAssetURL('779435d0-7046-40b9-873e-23d0e9e03e49')}
                     alt="Logo Deutsche Wohnen & Co Enteignen"
@@ -254,7 +254,7 @@ const Home: NextPage = () => {
                 </FadeIn>
               </div>
               <div className={s.flexLogoItem}>
-                <FadeIn delay={0.15} orientation="right">
+                <FadeIn delay={0.15} orientation="up">
                   <ResponsiveImage
                     path={getAssetURL('2b05532b-ff5a-4a42-a4aa-64cad97967eb')}
                     alt="Logo der Expedition Grundeinkommen"
@@ -266,7 +266,7 @@ const Home: NextPage = () => {
 
             <div className={s.flexLogoRowContainer}>
               <div className={s.flexLogoItem}>
-                <FadeIn delay={0.15} orientation="right">
+                <FadeIn delay={0.15} orientation="up">
                   <ResponsiveImage
                     path={getAssetURL('16a60946-19e5-47ee-8613-07c020019c09')}
                     alt="Logo Berlin Autofrei"
@@ -275,7 +275,7 @@ const Home: NextPage = () => {
                 </FadeIn>
               </div>
               <div className={s.flexLogoItem}>
-                <FadeIn delay={0.15} orientation="right">
+                <FadeIn delay={0.15} orientation="up">
                   <ResponsiveImage
                     path={getAssetURL('3cff3723-c11d-4532-acbe-1de246d21fe5')}
                     alt="Logo Klimaneustart Berlin"
@@ -284,7 +284,7 @@ const Home: NextPage = () => {
                 </FadeIn>
               </div>
               <div className={s.flexLogoItem}>
-                <FadeIn delay={0.15} orientation="right">
+                <FadeIn delay={0.15} orientation="up">
                   <ResponsiveImage
                     path={getAssetURL('ebaac358-13b4-42ec-a15d-8e14dfec9b01')}
                     alt="Logo Change.org e.V."

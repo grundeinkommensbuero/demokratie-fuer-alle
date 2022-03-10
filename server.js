@@ -19,7 +19,6 @@ app.prepare().then(() => {
 
   server.listen(PORT, err => {
     if (err) throw err;
-
-    console.log(`Server starts on ${PORT}.`);
+    console.log(`Listening on port ${PORT}.`);
   });
 });

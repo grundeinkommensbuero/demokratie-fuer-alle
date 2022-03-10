@@ -13,7 +13,7 @@ export const Opener = (): ReactElement => {
     <div className={s.openerContainer}>
       <div className={s.flexContainer}>
         <div className={s.flexAnimation}>
-          <FadeIn orientation="up" delay={getDelay()}>
+          <FadeIn delay={getDelay()}>
             <TextAnimation />
           </FadeIn>
         </div>
