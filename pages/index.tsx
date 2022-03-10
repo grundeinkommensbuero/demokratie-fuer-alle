@@ -202,7 +202,7 @@ const Home: NextPage = () => {
               <h2>Vernetz Dich mit Deinem Kiezteam</h2>
             </FadeIn>
 
-            <FadeIn delay={0.15}>
+            {/* <FadeIn delay={0.15}>
               <div>
                 <p>Du willst mitsammeln? Hier findest du die Telegram-Kiezgruppen:</p>
                 <ul>
@@ -232,7 +232,7 @@ const Home: NextPage = () => {
                   </li>
                 </ul>
               </div>
-            </FadeIn>
+            </FadeIn> */}
           </section>
 
           <section>
