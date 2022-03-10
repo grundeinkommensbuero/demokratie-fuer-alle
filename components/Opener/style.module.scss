@@ -2,13 +2,26 @@ $blue: #300fcb;
 $lightblue: #00f1e8;
 $pink: #ff46fa;
 
+.openerContainer {
+  background-image: url('https://xbge-directus.frac.tools/assets/76990d23-4cd4-4ef6-a32e-e2f97a0bcefc');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center top;
+  background-size: 175rem;
+}
+
 #container {
   color: black;
   font-size: 4rem;
-  font-weight: bold;
+  font-family: 'SyneSemiBold';
   width: 100%;
   display: block;
-  padding: 5rem;
+  padding: 5rem 4rem;
+
+  @media (max-width: 400px) {
+    font-size: 2rem;
+    padding: 4rem 3rem;
+  }
 
   @media (max-width: 500px) {
     font-size: 3rem;
@@ -18,6 +31,10 @@ $pink: #ff46fa;
 #flip {
   height: 6rem;
   overflow: hidden;
+
+  @media (max-width: 400px) {
+    height: 3rem;
+  }
 
   @media (max-width: 500px) {
     height: 4.5rem;
@@ -29,6 +46,10 @@ $pink: #ff46fa;
   height: 5rem;
   display: inline-block;
 
+  @media (max-width: 400px) {
+    height: 2.5rem;
+  }
+
   @media (max-width: 500px) {
     height: 3.75rem;
   }
@@ -36,6 +57,10 @@ $pink: #ff46fa;
 
 #flip div:first-child {
   animation: showl 5s ease-in-out infinite;
+
+  @media (max-width: 400px) {
+    animation: showxs 5s ease-in-out infinite;
+  }
 
   @media (max-width: 500px) {
     animation: shows 5s ease-in-out infinite;
@@ -49,6 +74,10 @@ $pink: #ff46fa;
   @media (max-width: 500px) {
     padding: 0 0.75rem;
   }
+
+  @media (max-width: 400px) {
+    padding: 0 0.5rem;
+  }
 }
 #flip div:first-child div {
   background: $pink;
@@ -57,6 +86,10 @@ $pink: #ff46fa;
   @media (max-width: 500px) {
     padding: 0 0.75rem;
   }
+
+  @media (max-width: 400px) {
+    padding: 0 0.5rem;
+  }
 }
 #flip div:last-child div {
   background: $blue;
@@ -64,6 +97,10 @@ $pink: #ff46fa;
 
   @media (max-width: 500px) {
     padding: 0 0.75rem;
+  }
+
+  @media (max-width: 400px) {
+    padding: 0 0.5rem;
   }
 }
 
@@ -118,14 +155,31 @@ $pink: #ff46fa;
   }
 }
 
-.openerContainer {
-  width: 100%;
-  background-image: url('https://xbge-directus.frac.tools/assets/76990d23-4cd4-4ef6-a32e-e2f97a0bcefc');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position-x: center;
-  background-position-y: 100%;
-  background-size: cover;
+@keyframes showxs {
+  0% {
+    margin-top: -0rem;
+  }
+  5% {
+    margin-top: -6rem;
+  }
+  33% {
+    margin-top: -6rem;
+  }
+  38% {
+    margin-top: -3rem;
+  }
+  66% {
+    margin-top: -3rem;
+  }
+  71% {
+    margin-top: 0rem;
+  }
+  99.99% {
+    margin-top: 0rem;
+  }
+  100% {
+    margin-top: -0rem;
+  }
 }
 
 .flexContainer {
