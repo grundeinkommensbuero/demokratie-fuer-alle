@@ -92,7 +92,7 @@ const Home: NextPage = () => {
                 >
                   vollständigen Forderungstext
                 </a>{' '}
-                findest du auf innn.it.
+                und weitere Informationen findest du auf innn.it.
               </p>
             </FadeIn>
           </section>
@@ -128,7 +128,7 @@ const Home: NextPage = () => {
             <FadeIn delay={0.15}>
               <p>
                 Bei unserem Bündnispartner innn.it kannst Du die Liste mit
-                portofreiem Rückumschlag downloaden oder per Post direkt
+                portofreiem Rückumschlag downloaden oder per Post direkt kostenlos
                 zugeschickt bekommen.
               </p>
             </FadeIn>
@@ -369,6 +369,12 @@ const Home: NextPage = () => {
                 </FadeIn>
               </div>
             </div>
+
+            <FadeIn delay={0.15}>
+              <p>
+              Möchtest Du Dich „Demokratie für alle“ mit Deiner Organisation anschließen? Dann <a href="https://expeditionbge.typeform.com/to/nZpdu7CO#user_email=xxxxx" target="_blank">folge einfach diesem Link</a>.
+              </p>
+            </FadeIn>
           </section>
         </main>
 
