@@ -195,6 +195,18 @@ const Home: NextPage = () => {
                 </button>
               </div>
             </FadeIn>
+            <br />
+
+            <FadeIn delay={0.15}>
+              <p>
+                <b>
+                  Oder komm einfach zum nächsten kiezübergreifenden Sammelevent:
+                </b>
+                <br />
+                Friedensdemo vom Alexanderplatz zur Siegessäule, Sonntag 13.
+                März, Treffpunkt 11:30 Haupteingang Alexa.
+              </p>
+            </FadeIn>
           </section>
 
           <section>
@@ -204,34 +216,102 @@ const Home: NextPage = () => {
 
             <FadeIn delay={0.15}>
               <div>
-                <p>Du willst mitsammeln? Hier findest du die Telegram-Kiezgruppen:</p>
+                <p>
+                  Du willst mitsammeln? Hier findest du die
+                  Telegram-Kiezgruppen:
+                </p>
                 <ul>
                   <li>
-                    <a href="https://bit.ly/3HYLa60" target="_blank" rel="noreferrer">Sammelgruppe xBerg, Moabit, Mitte</a>
+                    <a
+                      href="https://bit.ly/3pQIpgT"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Berlinweite Gruppe
+                    </a>
                   </li>
                   <li>
-                    <a href="https://bit.ly/35KoRnr" target="_blank" rel="noreferrer">Sammel-Gruppe Neukölln & Treptow-Köpenick</a>
+                    <a
+                      href="https://bit.ly/3HYLa60"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Sammelgruppe xBerg, Moabit, Mitte
+                    </a>
                   </li>
                   <li>
-                    <a href="https://bit.ly/3tKtRQP" target="_blank" rel="noreferrer">Sammelgruppe Wedding, Reinickendorf</a>
+                    <a
+                      href="https://bit.ly/35KoRnr"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Sammel-Gruppe Neukölln & Treptow-Köpenick
+                    </a>
                   </li>
                   <li>
-                    <a href="https://bit.ly/3MEgjPs" target="_blank" rel="noreferrer">Sammelgruppe Pberg, Pankow</a>
+                    <a
+                      href="https://bit.ly/3tKtRQP"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Sammelgruppe Wedding, Reinickendorf
+                    </a>
                   </li>
                   <li>
-                    <a href="https://bit.ly/3vVZpWA" target="_blank" rel="noreferrer">Sammelgruppe Charlottenburg, Spandau</a>
+                    <a
+                      href="https://bit.ly/3MEgjPs"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Sammelgruppe Pberg, Pankow
+                    </a>
                   </li>
                   <li>
-                    <a href="https://bit.ly/3J0ZI6v" target="_blank" rel="noreferrer">Sammelgruppe THF, Schöneberg, Steglitz-Zehlendorf</a>
+                    <a
+                      href="https://bit.ly/3vVZpWA"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Sammelgruppe Charlottenburg, Spandau
+                    </a>
                   </li>
                   <li>
-                    <a href="https://bit.ly/3hZJ8YJ" target="_blank" rel="noreferrer">Sammelgruppe Fhain, Lichtenberg, Ma-He</a>
+                    <a
+                      href="https://bit.ly/3J0ZI6v"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Sammelgruppe THF, Schöneberg, Steglitz-Zehlendorf
+                    </a>
                   </li>
                   <li>
-                    <a href="https://bit.ly/3pQIpgT" target="_blank" rel="noreferrer">Berlinweite Gruppe</a>
+                    <a
+                      href="https://bit.ly/3hZJ8YJ"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Sammelgruppe Fhain, Lichtenberg, Ma-He
+                    </a>
                   </li>
                 </ul>
               </div>
+            </FadeIn>
+
+            <FadeIn delay={0.15}>
+              <p>
+                Du möchtest, dass wir uns bei dir mit weiteren Infos zum
+                gemeinsamen Sammeln melden? Sehr gerne.
+                <br />
+                Bitte{' '}
+                <a
+                  href="https://expeditionbge.typeform.com/to/OoeNj9Kr#user_email=xxxxx"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  füll dazu diese kurze Umfrage
+                </a>{' '}
+                aus.
+              </p>
             </FadeIn>
           </section>
 
