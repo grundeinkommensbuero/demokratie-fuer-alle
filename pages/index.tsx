@@ -402,11 +402,7 @@ const Home: NextPage = () => {
                   Späti e.V.
                 </a>
                 ,{' '}
-                <a
-                  target="_blank"
-                  rel="noreferrer"
-                  href="https://liqd.net/de/"
-                >
+                <a target="_blank" rel="noreferrer" href="https://liqd.net/de/">
                   Liquid Democracy e.V
                 </a>
                 ,{' '}
@@ -432,8 +428,8 @@ const Home: NextPage = () => {
                   href="https://munizipalismus-berlin.de/"
                 >
                   Arbeitskreis Munizipalismus Berlin
-                </a>
-                {' '}und{' '}
+                </a>{' '}
+                und{' '}
                 <a
                   target="_blank"
                   rel="noreferrer"
@@ -454,6 +450,15 @@ const Home: NextPage = () => {
                     path={getAssetURL('779435d0-7046-40b9-873e-23d0e9e03e49')}
                     alt="Logo Deutsche Wohnen & Co Enteignen"
                     link={'https://www.dwenteignen.de/'}
+                  />
+                </FadeIn>
+              </div>
+              <div className={s.flexLogoItem}>
+                <FadeIn delay={0.15} orientation="up">
+                  <ResponsiveImage
+                    path={getAssetURL('9b96c570-0266-4369-9c86-6cbd32a06f02')}
+                    alt="Logo von Liquid Democracy"
+                    link={'https://liqd.net/en/'}
                   />
                 </FadeIn>
               </div>
