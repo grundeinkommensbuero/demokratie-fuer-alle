@@ -382,7 +382,7 @@ const Home: NextPage = () => {
                   Change.org e.V.
                 </a>
                 /
-                <a target="_blank" rel="noreferrer" href="https://innn.it/">
+                <a target="_blank" rel="noreferrer" href="https://innn.it/demokratiefueralle">
                   innn.it
                 </a>{' '}
                 ,{' '}
