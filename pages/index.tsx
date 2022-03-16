@@ -385,13 +385,61 @@ const Home: NextPage = () => {
                 <a target="_blank" rel="noreferrer" href="https://innn.it/">
                   innn.it
                 </a>{' '}
-                und{' '}
+                ,{' '}
                 <a
                   target="_blank"
                   rel="noreferrer"
                   href="https://www.openpetition.de/"
                 >
                   openPetition
+                </a>
+                ,{' '}
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://www.spaeti-ev.de/"
+                >
+                  Späti e.V.
+                </a>
+                ,{' '}
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://liqd.net/de/"
+                >
+                  Liquid Democracy e.V
+                </a>
+                ,{' '}
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://www.citizensforeurope.eu/organisation/citizens-for-europe"
+                >
+                  Citizens for Europe
+                </a>
+                ,{' '}
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://nachhaltigkeit.bvng.org/"
+                >
+                  Bundesvereinigung Nachhaltigkeit
+                </a>
+                ,{' '}
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://munizipalismus-berlin.de/"
+                >
+                  Arbeitskreis Munizipalismus Berlin
+                </a>
+                {' '}und{' '}
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://twitter.com/aba_berlin?lang=de"
+                >
+                  Aktionsbündnis Antira (ABA)
                 </a>
                 .
               </p>
