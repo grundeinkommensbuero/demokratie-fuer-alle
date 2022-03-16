@@ -461,15 +461,7 @@ const Home: NextPage = () => {
                   />
                 </FadeIn>
               </div>
-              <div className={s.flexLogoItem}>
-                <FadeIn delay={0.15} orientation="up">
-                  <ResponsiveImage
-                    path={getAssetURL('9b96c570-0266-4369-9c86-6cbd32a06f02')}
-                    alt="Logo von Liquid Democracy"
-                    link={'https://liqd.net/en/'}
-                  />
-                </FadeIn>
-              </div>
+              
               <div className={s.flexLogoItem}>
                 <FadeIn delay={0.15} orientation="up">
                   <ResponsiveImage
@@ -479,9 +471,15 @@ const Home: NextPage = () => {
                   />
                 </FadeIn>
               </div>
-            </div>
-
-            <div className={s.flexLogoRowContainer}>
+              <div className={s.flexLogoItem}>
+                <FadeIn delay={0.15} orientation="up">
+                  <ResponsiveImage
+                    path={getAssetURL('9acbc676-1cb2-43f0-989f-27a38b635a6c')}
+                    alt="Logo Klimaneustart Berlin"
+                    link={'https://klimaneustart.berlin/'}
+                  />
+                </FadeIn>
+              </div>
               <div className={s.flexLogoItem}>
                 <FadeIn delay={0.15} orientation="up">
                   <ResponsiveImage
@@ -491,21 +489,54 @@ const Home: NextPage = () => {
                   />
                 </FadeIn>
               </div>
-              <div className={s.flexLogoItem}>
-                <FadeIn delay={0.15} orientation="up">
-                  <ResponsiveImage
-                    path={getAssetURL('3cff3723-c11d-4532-acbe-1de246d21fe5')}
-                    alt="Logo Klimaneustart Berlin"
-                    link={'https://klimaneustart.berlin/'}
-                  />
-                </FadeIn>
-              </div>
+            </div>
+
+            <div className={s.flexLogoRowContainer}>   
               <div className={s.flexLogoItem}>
                 <FadeIn delay={0.15} orientation="up">
                   <ResponsiveImage
                     path={getAssetURL('ebaac358-13b4-42ec-a15d-8e14dfec9b01')}
                     alt="Logo Change.org e.V."
                     link={'https://changeverein.org/'}
+                  />
+                </FadeIn>
+              </div>
+              <div className={s.flexLogoItem}>
+                <FadeIn delay={0.15} orientation="up">
+                  <ResponsiveImage
+                    path={getAssetURL('02032374-a442-4faf-91e5-fcca4c4f8c3c')}
+                    alt="Logo Innnit"
+                    link={'https://innn.it'}
+                  />
+                </FadeIn>
+              </div>
+              <div className={s.flexLogoItem}>
+                <FadeIn delay={0.15} orientation="up">
+                  <ResponsiveImage
+                    path={getAssetURL('ace10e1b-b6df-4355-b4bc-5a80ddebe208')}
+                    alt="Logo 14% Nicht Ohne Uns"
+                    link={'https://www.change.org/p/bundesregierung-nicht-ohne-uns-14-prozent-bundestagswahlrecht-für-alle-in-deutschland-lebenden-menschen'}
+                  />
+                </FadeIn>
+              </div>
+            </div>
+
+            <div className={s.flexLogoRowContainer}>
+              <div className={s.flexLogoItem}>
+                <FadeIn delay={0.15} orientation="up">
+                  <ResponsiveImage
+                    path={getAssetURL('7d94a1af-9ef8-4210-bfcc-26d6a16e2d0f')}
+                    alt="Logo von Mehr Demokratie"
+                    link={'https://bb.mehr-demokratie.de/'}
+                  />
+                </FadeIn>
+              </div>   
+              <div className={s.flexLogoItem}>
+                <FadeIn delay={0.15} orientation="up">
+                  <ResponsiveImage
+                    path={getAssetURL('9b96c570-0266-4369-9c86-6cbd32a06f02')}
+                    alt="Logo von Liquid Democracy"
+                    link={'https://liqd.net/en/'}
                   />
                 </FadeIn>
               </div>
