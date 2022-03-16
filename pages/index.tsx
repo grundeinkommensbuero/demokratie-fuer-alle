@@ -425,7 +425,7 @@ const Home: NextPage = () => {
                 <a
                   target="_blank"
                   rel="noreferrer"
-                  href="euroalter.com"
+                  href="https://euroalter.com"
                 >
                   European Alternatives
                 </a>
