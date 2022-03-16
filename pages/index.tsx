@@ -425,6 +425,14 @@ const Home: NextPage = () => {
                 <a
                   target="_blank"
                   rel="noreferrer"
+                  href="euroalter.com"
+                >
+                  European Alternatives
+                </a>
+                ,{' '}
+                <a
+                  target="_blank"
+                  rel="noreferrer"
                   href="https://munizipalismus-berlin.de/"
                 >
                   Arbeitskreis Munizipalismus Berlin
