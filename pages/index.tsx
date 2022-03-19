@@ -203,8 +203,9 @@ const Home: NextPage = () => {
                   Oder komm einfach zum nächsten kiezübergreifenden Sammelevent:
                 </b>
                 <br />
-                Friedensdemo vom Alexanderplatz zur Siegessäule, Sonntag 13.
-                März, Treffpunkt 11:30 Haupteingang Alexa.
+                Friedenskonzert zwischen Brandenburger Tor und Siegessäule,
+                Sonntag 20. März, Treffpunkt ab 11:30 Uhr am Parkplatz
+                Siegessäule.
               </p>
             </FadeIn>
           </section>
@@ -382,7 +383,11 @@ const Home: NextPage = () => {
                   Change.org e.V.
                 </a>
                 /
-                <a target="_blank" rel="noreferrer" href="https://innn.it/demokratiefueralle">
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://innn.it/demokratiefueralle"
+                >
                   innn.it
                 </a>{' '}
                 ,{' '}
@@ -461,7 +466,7 @@ const Home: NextPage = () => {
                   />
                 </FadeIn>
               </div>
-              
+
               <div className={s.flexLogoItem}>
                 <FadeIn delay={0.15} orientation="up">
                   <ResponsiveImage
@@ -491,7 +496,7 @@ const Home: NextPage = () => {
               </div>
             </div>
 
-            <div className={s.flexLogoRowContainer}>   
+            <div className={s.flexLogoRowContainer}>
               <div className={s.flexLogoItem}>
                 <FadeIn delay={0.15} orientation="up">
                   <ResponsiveImage
@@ -515,7 +520,9 @@ const Home: NextPage = () => {
                   <ResponsiveImage
                     path={getAssetURL('ace10e1b-b6df-4355-b4bc-5a80ddebe208')}
                     alt="Logo 14% Nicht Ohne Uns"
-                    link={'https://www.change.org/p/bundesregierung-nicht-ohne-uns-14-prozent-bundestagswahlrecht-für-alle-in-deutschland-lebenden-menschen'}
+                    link={
+                      'https://www.change.org/p/bundesregierung-nicht-ohne-uns-14-prozent-bundestagswahlrecht-für-alle-in-deutschland-lebenden-menschen'
+                    }
                   />
                 </FadeIn>
               </div>
@@ -530,7 +537,7 @@ const Home: NextPage = () => {
                     link={'https://bb.mehr-demokratie.de/'}
                   />
                 </FadeIn>
-              </div>   
+              </div>
               <div className={s.flexLogoItem}>
                 <FadeIn delay={0.15} orientation="up">
                   <ResponsiveImage
