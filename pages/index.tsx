@@ -203,9 +203,28 @@ const Home: NextPage = () => {
                   Oder komm einfach zum nächsten kiezübergreifenden Sammelevent:
                 </b>
                 <br />
-                Friedenskonzert zwischen Brandenburger Tor und Siegessäule,
-                Sonntag 20. März, Treffpunkt ab 11:30 Uhr am Parkplatz
-                Siegessäule.
+                <br />
+                ✨Sammeln auf dem Klimastreik.✨
+              </p>
+            </FadeIn>
+
+            <FadeIn delay={0.15}>
+              <p>
+                Freitag, 25. März ist globaler Klimastreik und wir brauchen
+                dich! Du brauchst keine Vorerfahrung und auch kein Material - du
+                bekommst alles vor Ort. Trag dich direkt für einen Block ein:
+              </p>
+            </FadeIn>
+
+            <FadeIn delay={0.15}>
+              <p>
+                <a
+                  href="https://bit.ly/36dnyOf"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Hier geht’s zur Liste
+                </a>
               </p>
             </FadeIn>
           </section>
