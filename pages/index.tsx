@@ -95,6 +95,14 @@ const Home: NextPage = () => {
                 und weitere Informationen findest du auf innn.it.
               </p>
             </FadeIn>
+
+            <FadeIn delay={getSection2Delay()} orientation="up">
+              <iframe
+                width="100%"
+                height="150px"
+                src="https://expedition-grundeinkommen.de/iframes/democracy-visualization"
+              />
+            </FadeIn>
           </section>
 
           <section>
