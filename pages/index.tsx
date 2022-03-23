@@ -35,6 +35,15 @@ const Home: NextPage = () => {
 
         <main className={s.main}>
           <section>
+          <FadeIn delay={0.15} orientation="up">
+              <div className={s.openPetitionLogo}>
+                <ResponsiveImage
+                  path={getAssetURL('e9fb6c95-bbb3-46a3-8148-7fa0eb01308f')}
+                  alt="Open Petition"
+                  link={'https://www.openpetition.de'}
+                />
+              </div>
+            </FadeIn>            
             <FadeIn delay={getSection1Delay()}>
               <h1>
                 Unterschreibe jetzt für die Volksinitiative
@@ -42,6 +51,7 @@ const Home: NextPage = () => {
                 „Demokratie für Alle!“
               </h1>
             </FadeIn>
+            
             <FadeIn delay={getSection1Delay()}>
               <p>
                 Die Demokratie ist das Herz unserer Gesellschaft. Wir wollen,
@@ -111,6 +121,34 @@ const Home: NextPage = () => {
             </FadeIn>
 
             <FadeIn delay={0.15}>
+              {/* <p>
+                Unterschriften für Volksinitiativen müssen handschriftlich auf
+                Papier erfolgen. Die Unterschriftenlisten kannst du bei unseren
+                Bündnispartnern herunterladen.
+              </p> */}
+
+              <p>
+                Unterschriften für Volksinitiativen müssen handschriftlich auf
+                Papier erfolgen. Die Unterschriftenlisten kannst du hier herunterladen.
+              </p>
+            </FadeIn>
+
+            <FadeIn delay={0.15}>
+              <div className={s.buttonRow}>
+                <button
+                  onClick={() =>
+                    handleClick(
+                      'https://changeverein.org/wp-content/uploads/2022/03/DfA-Unterschriftenliste-Change.pdf'
+                    )
+                  }
+                  className={s.button}
+                >
+                  Jetzt Liste herunterladen
+                </button>
+              </div>
+            </FadeIn>
+
+            {/* <FadeIn delay={0.15}>
               <p>
                 Unterschriften für Volksinitiativen müssen handschriftlich auf
                 Papier erfolgen. Die Unterschriftenlisten kannst du bei unseren
@@ -131,9 +169,9 @@ const Home: NextPage = () => {
                   Liste bei der Expedition herunterladen
                 </button>
               </div>
-            </FadeIn>
+            </FadeIn> */}
 
-            <FadeIn delay={0.15}>
+            {/* <FadeIn delay={0.15}>
               <p>
                 Bei unserem Bündnispartner innn.it kannst Du die Liste mit
                 portofreiem Rückumschlag downloaden oder per Post direkt
@@ -152,7 +190,7 @@ const Home: NextPage = () => {
                   Liste bei innn.it herunterladen
                 </button>
               </div>
-            </FadeIn>
+            </FadeIn> */}
           </section>
 
           <section>
@@ -493,7 +531,6 @@ const Home: NextPage = () => {
                   />
                 </FadeIn>
               </div>
-
               <div className={s.flexLogoItem}>
                 <FadeIn delay={0.15} orientation="up">
                   <ResponsiveImage
@@ -527,6 +564,15 @@ const Home: NextPage = () => {
               <div className={s.flexLogoItem}>
                 <FadeIn delay={0.15} orientation="up">
                   <ResponsiveImage
+                    path={getAssetURL('f91b4fc4-9098-4917-8ad3-ef4bef86cc6a')}
+                    alt="Open Petition"
+                    link={'https://www.openpetition.de'}
+                  />
+                </FadeIn>
+              </div>
+              <div className={s.flexLogoItem}>
+                <FadeIn delay={0.15} orientation="up">
+                  <ResponsiveImage
                     path={getAssetURL('ebaac358-13b4-42ec-a15d-8e14dfec9b01')}
                     alt="Logo Change.org e.V."
                     link={'https://changeverein.org/'}
@@ -541,18 +587,7 @@ const Home: NextPage = () => {
                     link={'https://innn.it'}
                   />
                 </FadeIn>
-              </div>
-              <div className={s.flexLogoItem}>
-                <FadeIn delay={0.15} orientation="up">
-                  <ResponsiveImage
-                    path={getAssetURL('ace10e1b-b6df-4355-b4bc-5a80ddebe208')}
-                    alt="Logo 14% Nicht Ohne Uns"
-                    link={
-                      'https://www.change.org/p/bundesregierung-nicht-ohne-uns-14-prozent-bundestagswahlrecht-für-alle-in-deutschland-lebenden-menschen'
-                    }
-                  />
-                </FadeIn>
-              </div>
+              </div> 
             </div>
 
             <div className={s.flexLogoRowContainer}>
@@ -571,6 +606,18 @@ const Home: NextPage = () => {
                     path={getAssetURL('9b96c570-0266-4369-9c86-6cbd32a06f02')}
                     alt="Logo von Liquid Democracy"
                     link={'https://liqd.net/en/'}
+                  />
+                </FadeIn>
+              </div>
+
+              <div className={s.flexLogoItem}>
+                <FadeIn delay={0.15} orientation="up">
+                  <ResponsiveImage
+                    path={getAssetURL('ace10e1b-b6df-4355-b4bc-5a80ddebe208')}
+                    alt="Logo 14% Nicht Ohne Uns"
+                    link={
+                      'https://www.change.org/p/bundesregierung-nicht-ohne-uns-14-prozent-bundestagswahlrecht-für-alle-in-deutschland-lebenden-menschen'
+                    }
                   />
                 </FadeIn>
               </div>
@@ -620,6 +667,15 @@ const Home: NextPage = () => {
                 </a>
                 <br />
                 <b>Pressemitteilungen:</b>
+                <br />
+                <a
+                  href="https://assets.ctfassets.net/af08tobnb0cl/66sNA9dOUJJvHGTVTq7oRf/8d884edf43e004a0150b14d352c53437/220323_PM_Demokratie_fu__r_Alle_im_Sammel-Endspurt.pdf"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  Pressemitteilung: 10.000 Unterschriften erreicht
+                  23. März 2022
+                </a>
                 <br />
                 <a
                   href="https://assets.ctfassets.net/af08tobnb0cl/54NdMLsTXlIxZBuS4Mqa6c/f4202c46023fbe540436b958f7c75399/220310_PM_Expedition_Grundeinkommen_Demokratie_f__r_Alle.pdf"
