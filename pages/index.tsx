@@ -34,16 +34,7 @@ const Home: NextPage = () => {
         </Head>
 
         <main className={s.main}>
-          <section>
-          <FadeIn delay={0.15} orientation="up">
-              <div className={s.openPetitionLogo}>
-                <ResponsiveImage
-                  path={getAssetURL('e9fb6c95-bbb3-46a3-8148-7fa0eb01308f')}
-                  alt="Open Petition"
-                  link={'https://www.openpetition.de'}
-                />
-              </div>
-            </FadeIn>            
+          <section>           
             <FadeIn delay={getSection1Delay()}>
               <h1>
                 Unterschreibe jetzt für die Volksinitiative
