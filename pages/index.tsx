@@ -119,8 +119,7 @@ const Home: NextPage = () => {
               </p> */}
 
               <p>
-                Unterschriften für Volksinitiativen müssen handschriftlich auf
-                Papier erfolgen. Die Unterschriftenlisten kannst du hier herunterladen.
+              Unterschriften für Volksinitiativen müssen handschriftlich auf Papier erfolgen. Die Unterschriftenlisten kannst du hier herunterladen und bis 2. Mai 2022 handschriftlich unterzeichnet abgeben.
               </p>
             </FadeIn>
 
@@ -233,25 +232,6 @@ const Home: NextPage = () => {
               </div>
             </FadeIn>
             <br />
-
-            <FadeIn delay={0.15}>
-              <p>
-                <b>
-                  Oder komm einfach zum nächsten kiezübergreifenden Sammelevent:
-                </b>
-                <br />
-                <br />
-                ✨Sammeln auf dem Klimastreik.✨
-              </p>
-            </FadeIn>
-
-            <FadeIn delay={0.15}>
-              <p>
-                Freitag, 25. März ist globaler Klimastreik und wir brauchen
-                dich! Du brauchst keine Vorerfahrung und auch kein Material - du
-                bekommst alles vor Ort. Trag dich direkt für einen Block ein:
-              </p>
-            </FadeIn>
 
             <FadeIn delay={0.15}>
               <p>
