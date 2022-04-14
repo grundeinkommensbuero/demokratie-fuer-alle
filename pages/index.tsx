@@ -128,7 +128,7 @@ const Home: NextPage = () => {
                 <button
                   onClick={() =>
                     handleClick(
-                      'https://changeverein.org/wp-content/uploads/2022/03/DfA-Unterschriftenliste-Change.pdf'
+                      'https://changeverein.org/wp-content/uploads/2022/04/Unterschriftenliste_DFA_2022-04-05-printout.pdf'
                     )
                   }
                   className={s.button}
